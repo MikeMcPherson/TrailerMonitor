@@ -1,0 +1,4574 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3e352327-6d34-4520-89b7-9902d021830c")
+	(paper "USLedger")
+	(title_block
+		(title "Trailer Monitor")
+		(date "2025-09-20")
+		(rev "V1.0")
+		(company "Tripoli Central Virginia")
+	)
+	(lib_symbols
+		(symbol "178_6164_0002:178.6164.0002"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 5.08 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "178.6164.0002"
+				(at 5.08 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "FUSE_178-6164_LTF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "178.6164.0002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "178.6164.0002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "FUSE_178-6164_LTF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "178.6164.0002_1_1"
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 6.35 -1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "178.6164.0002_1_2"
+				(arc
+					(start 0 7.62)
+					(mid 1.2645 6.35)
+					(end 0 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid -1.2645 3.81)
+					(end 0 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Raspberrypi pico2 W:U"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "U_1_1"
+				(rectangle
+					(start -21.59 22.86)
+					(end 21.59 -35.56)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Raspberrypi pico2\n"
+					(at -0.762 25.146 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -38.1 90)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -38.1 90)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 20.32 0)
+					(length 2.54)
+					(name "GP0/I2C0_SDA/UART0_TX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 17.78 0)
+					(length 2.54)
+					(name "GP1_/I2C0_SCL/UART0_RX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 12.7 0)
+					(length 2.54)
+					(name "GP2/SPIO_SCK/I2C1_SDA"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 10.16 0)
+					(length 2.54)
+					(name "GP3/SPIO_TX/I2C1SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 7.62 0)
+					(length 2.54)
+					(name "GP4/SPIO_RX/I2C0_SDA/_UART1_TX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 5.08 0)
+					(length 2.54)
+					(name "GP5/SPIO_CSn/I2C0_SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 0 0)
+					(length 2.54)
+					(name "GP6/SPIO_SCK/I2C1_SDA"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -2.54 0)
+					(length 2.54)
+					(name "GP7/SPI0_TX/_I2C1_SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -5.08 0)
+					(length 2.54)
+					(name "GP8/SPI1_RX/I2C0_SDA/UART1_TX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -7.62 0)
+					(length 2.54)
+					(name "GP9/SPI1_CSn/I2C0_SCL/UART1_RX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -12.7 0)
+					(length 2.54)
+					(name "GPI10/SPI1_SCK/I2C1_SDA"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -15.24 0)
+					(length 2.54)
+					(name "GP11/_SPI1_TX/I2C1_SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -17.78 0)
+					(length 2.54)
+					(name "GP12/SPI1_RX/I2C0_SDA/UART0_TX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -20.32 0)
+					(length 2.54)
+					(name "GP13/SPI1_CSn/I2C0_SCL/UART0_RX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -22.86 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -25.4 0)
+					(length 2.54)
+					(name "GP14/SPI1_SCK/I2C1_SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -27.94 0)
+					(length 2.54)
+					(name "GP15/SPI1_TX/I2C1_SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -27.94 180)
+					(length 2.54)
+					(name "GP16/SPI0_RX/I2C0_SDA/UART0_TX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -25.4 180)
+					(length 2.54)
+					(name "GP17/SPI0_CSn/I2C0_SCL/UART0_RX"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -22.86 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -20.32 180)
+					(length 2.54)
+					(name "GP18/SPI0_SCK/I2C1_SDA"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -17.78 180)
+					(length 2.54)
+					(name "GP19/SPI0_TX/I2C1_SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -15.24 180)
+					(length 2.54)
+					(name "GP20/I2C0_SDA"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -12.7 180)
+					(length 2.54)
+					(name "GP21/I2C0_SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -7.62 180)
+					(length 2.54)
+					(name "GP22"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -5.08 180)
+					(length 2.54)
+					(name "RUN"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -2.54 180)
+					(length 2.54)
+					(name "GP26/ADC0/I2C1_SDA"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 0 180)
+					(length 2.54)
+					(name "GP27/ADC1/I2C1_SCL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 2.54 180)
+					(length 2.54)
+					(name "GND/AGND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 5.08 180)
+					(length 2.54)
+					(name "GP28/ADC2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 7.62 180)
+					(length 2.54)
+					(name "ADC_VREF"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 10.16 180)
+					(length 2.54)
+					(name "3V3_OUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 12.7 180)
+					(length 2.54)
+					(name "3V3_EN"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 15.24 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 17.78 180)
+					(length 2.54)
+					(name "VSYS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 20.32 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 45.72 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "187e57f1-3865-49bc-a727-95480ddb51cd")
+	)
+	(junction
+		(at 139.7 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c75263-be5d-4c2d-ae3a-d9acb2e94a19")
+	)
+	(junction
+		(at 45.72 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52733262-3ac7-4d17-9073-d827ba4c7d02")
+	)
+	(junction
+		(at 45.72 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "708fe1eb-b351-43aa-8fb9-75447a14e461")
+	)
+	(junction
+		(at 138.43 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94c238e2-d3c0-4c88-8883-5a17aa0e7229")
+	)
+	(junction
+		(at 139.7 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d39f6172-c8d1-492d-8598-baee4ef62687")
+	)
+	(junction
+		(at 138.43 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d785258d-229a-4957-93bd-ef40f29bd9a9")
+	)
+	(junction
+		(at 45.72 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8b42639-9def-4e24-9cad-3abe61b0aab1")
+	)
+	(no_connect
+		(at 228.6 97.79)
+		(uuid "0f839d91-b9ea-4f59-a5eb-2fc06a79bdc7")
+	)
+	(no_connect
+		(at 250.19 135.89)
+		(uuid "1e7d644d-9386-42f8-b221-9d39a37645ea")
+	)
+	(no_connect
+		(at 276.86 97.79)
+		(uuid "23e5e69d-7615-4c51-9ddb-4356ab8f3a04")
+	)
+	(no_connect
+		(at 276.86 92.71)
+		(uuid "24511707-8a17-4745-85a3-bec2692020a0")
+	)
+	(no_connect
+		(at 276.86 102.87)
+		(uuid "2c68a9e6-28d8-4986-aff5-c55c4f3f1619")
+	)
+	(no_connect
+		(at 276.86 123.19)
+		(uuid "3839cf5e-4f1e-43f6-a81e-6ff92ffee768")
+	)
+	(no_connect
+		(at 276.86 115.57)
+		(uuid "3ef953d1-ea79-4855-bcbd-c65419b39510")
+	)
+	(no_connect
+		(at 228.6 110.49)
+		(uuid "56f01369-3107-4f1a-95cc-34ceaa44a681")
+	)
+	(no_connect
+		(at 228.6 100.33)
+		(uuid "66193bdf-67be-440c-a90e-6cd8d9b23949")
+	)
+	(no_connect
+		(at 228.6 105.41)
+		(uuid "79cf3c91-4004-4e3b-90b7-12ca28e52214")
+	)
+	(no_connect
+		(at 228.6 102.87)
+		(uuid "7cd7401e-899a-4566-8658-9e7869b3dab0")
+	)
+	(no_connect
+		(at 276.86 118.11)
+		(uuid "9493d581-0235-4567-85ff-3fae814b0f5c")
+	)
+	(no_connect
+		(at 228.6 113.03)
+		(uuid "9c54f3cd-3780-4c92-a2aa-16fc225fd441")
+	)
+	(no_connect
+		(at 276.86 90.17)
+		(uuid "9f998729-90f3-4e76-b1fb-d98bf2b49ff0")
+	)
+	(no_connect
+		(at 276.86 105.41)
+		(uuid "c4305f10-c06f-40a9-9290-88a1db42a1db")
+	)
+	(no_connect
+		(at 276.86 87.63)
+		(uuid "c62985e2-d93f-4e08-8763-2c18b940df6a")
+	)
+	(no_connect
+		(at 276.86 125.73)
+		(uuid "c68218c0-d7bf-4ff0-9a35-c26310e926f4")
+	)
+	(no_connect
+		(at 228.6 125.73)
+		(uuid "e122ab42-4e3e-45d9-9a1e-faa0f40f111d")
+	)
+	(no_connect
+		(at 255.27 135.89)
+		(uuid "e6a15ccb-58e2-44b8-9216-39e537ca0c90")
+	)
+	(no_connect
+		(at 228.6 123.19)
+		(uuid "e831e4c9-ccaa-4854-8f8f-af61eb6e1c59")
+	)
+	(no_connect
+		(at 276.86 100.33)
+		(uuid "ee400c0d-c4ab-40b1-a0a9-f0b7163dd5d3")
+	)
+	(no_connect
+		(at 228.6 92.71)
+		(uuid "f179a565-d808-483b-bbd7-871bae3862b0")
+	)
+	(no_connect
+		(at 276.86 85.09)
+		(uuid "f988d0ce-41d3-461f-bf5e-4ee229cf1722")
+	)
+	(wire
+		(pts
+			(xy 45.72 115.57) (xy 52.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c999e8-9c44-4c1a-ac15-9f4266e0e2c9")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11da40c5-3fd9-45f4-bf36-a85d83c51f30")
+	)
+	(wire
+		(pts
+			(xy 276.86 120.65) (xy 292.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120c29c1-18f3-46af-bf8c-e3b7f5a4bf4e")
+	)
+	(wire
+		(pts
+			(xy 143.51 125.73) (xy 146.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cb9500-2206-4d83-8311-69dc0847d60c")
+	)
+	(wire
+		(pts
+			(xy 49.53 165.1) (xy 52.07 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e061c5-e425-4864-a564-070c6d560485")
+	)
+	(wire
+		(pts
+			(xy 213.36 82.55) (xy 228.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1824edee-4d20-424b-99fe-a38d0b93fba7")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aedf408-0d3d-458f-b7a8-31ad02ce62e3")
+	)
+	(wire
+		(pts
+			(xy 227.33 118.11) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db77267-2c65-43fb-ad86-0527b8d64e5f")
+	)
+	(wire
+		(pts
+			(xy 52.07 160.02) (xy 45.72 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b21494-125a-4ffb-b00f-f613edd58037")
+	)
+	(wire
+		(pts
+			(xy 138.43 77.47) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e70bc59-89ba-404d-9591-ac0c983e414e")
+	)
+	(wire
+		(pts
+			(xy 143.51 165.1) (xy 146.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362a8b3c-8a70-42cb-85e0-f8b4c327f3a8")
+	)
+	(wire
+		(pts
+			(xy 45.72 160.02) (xy 45.72 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372a41ac-093e-457b-ae4b-e7306efc9772")
+	)
+	(wire
+		(pts
+			(xy 142.24 45.72) (xy 144.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372b2b6d-be10-4a62-9771-035fc922faba")
+	)
+	(wire
+		(pts
+			(xy 49.53 45.72) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af5e8a7-f701-4d95-b58b-ba4e565a72c9")
+	)
+	(wire
+		(pts
+			(xy 146.05 160.02) (xy 139.7 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4300e513-38eb-4bcd-95a0-4ebed0feabf3")
+	)
+	(wire
+		(pts
+			(xy 276.86 113.03) (xy 278.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438eb966-da3a-4a8f-8a2b-f7494263d155")
+	)
+	(wire
+		(pts
+			(xy 146.05 118.11) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6a56d4-d16d-4af6-9e93-bffc9b7a6526")
+	)
+	(wire
+		(pts
+			(xy 45.72 118.11) (xy 45.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd50b74-331f-453c-abcc-efc8842677d7")
+	)
+	(wire
+		(pts
+			(xy 276.86 107.95) (xy 292.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521776ee-c908-488c-96c8-9945437ef5f6")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed966e9-8463-40d4-ad91-eaec54c8186f")
+	)
+	(wire
+		(pts
+			(xy 139.7 160.02) (xy 139.7 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffcde92-77e2-41c8-8968-3fa51e631c9b")
+	)
+	(wire
+		(pts
+			(xy 52.07 77.47) (xy 45.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61373637-d624-4498-b682-da664856833d")
+	)
+	(wire
+		(pts
+			(xy 276.86 95.25) (xy 292.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632dee8d-3604-46ef-b156-0b94f6cde490")
+	)
+	(wire
+		(pts
+			(xy 139.7 157.48) (xy 146.05 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6bc431-4992-4b5d-8c37-3dceec3a523a")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81813c0f-02b7-48a0-96f0-011b25e434d7")
+	)
+	(wire
+		(pts
+			(xy 276.86 110.49) (xy 278.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7df308-ae94-4a2f-9d2c-265841ad9db7")
+	)
+	(wire
+		(pts
+			(xy 227.33 115.57) (xy 228.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c861b31-b8ee-42c8-a833-aba61c7b04e3")
+	)
+	(wire
+		(pts
+			(xy 49.53 123.19) (xy 52.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91edea78-1f51-49d2-bf6c-2c8f6958c90c")
+	)
+	(wire
+		(pts
+			(xy 49.53 43.18) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e63436-2bad-441b-8468-6fa56136949f")
+	)
+	(wire
+		(pts
+			(xy 252.73 135.89) (xy 252.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d85254-2a04-48b8-a9c1-7cfc1f14c28b")
+	)
+	(wire
+		(pts
+			(xy 143.51 167.64) (xy 146.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46dc146-d716-4387-896b-b440941ad92e")
+	)
+	(wire
+		(pts
+			(xy 49.53 125.73) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a689228e-79dd-49e4-84f1-9370d8000e4a")
+	)
+	(wire
+		(pts
+			(xy 213.36 95.25) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e613e0-dd30-4593-b06c-9d4fbac34809")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 144.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8aa8d22-8bd2-4dd1-8162-acf22f040814")
+	)
+	(wire
+		(pts
+			(xy 276.86 82.55) (xy 292.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a906b29b-62b4-485b-9cda-42972542a01a")
+	)
+	(wire
+		(pts
+			(xy 49.53 167.64) (xy 52.07 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96d7095-689e-41ec-a33e-dc57b3fafc00")
+	)
+	(wire
+		(pts
+			(xy 213.36 120.65) (xy 228.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4903cd-ba06-421c-bb81-9790e10a94a9")
+	)
+	(wire
+		(pts
+			(xy 213.36 107.95) (xy 228.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2e30f5-1717-4821-a586-3f1b20aeaebc")
+	)
+	(wire
+		(pts
+			(xy 45.72 35.56) (xy 52.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae068f44-c467-465e-a63d-613701ebb598")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 52.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc0491a-3e41-45c9-a44c-bd94e9dc7e17")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.18) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc48e5b-19ea-4843-8fda-0361f94b5872")
+	)
+	(wire
+		(pts
+			(xy 52.07 38.1) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedfc1a6-04f8-4e39-9f4d-d9636ac08919")
+	)
+	(wire
+		(pts
+			(xy 144.78 38.1) (xy 138.43 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b3ce8d-73b4-4e0b-b90f-aa1555710481")
+	)
+	(wire
+		(pts
+			(xy 52.07 118.11) (xy 45.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c06dd3-b044-42f4-b49c-da761220365d")
+	)
+	(wire
+		(pts
+			(xy 138.43 38.1) (xy 138.43 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47ed949-c677-41b9-863c-e282d6a3b639")
+	)
+	(wire
+		(pts
+			(xy 45.72 74.93) (xy 52.07 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73ae3ff-67b6-4972-b36f-97bd1a1bc9c9")
+	)
+	(wire
+		(pts
+			(xy 45.72 157.48) (xy 52.07 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1b35c3-9bef-45d4-bdeb-5012181744c9")
+	)
+	(wire
+		(pts
+			(xy 138.43 35.56) (xy 144.78 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee455fd0-151f-4208-aa72-81bed86a1280")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 139.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef04ce6d-286c-4d16-b15f-eeb40b0b3185")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 45.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60c92a0-0ecc-44a8-96ca-331ce078d3c8")
+	)
+	(wire
+		(pts
+			(xy 45.72 77.47) (xy 45.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6969f50-e5e8-4961-8067-7b6023b41c2d")
+	)
+	(wire
+		(pts
+			(xy 143.51 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa25c535-05ab-46a6-bc47-0f6d4bcde932")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb2785b-3454-43e8-a2b4-21cc0a77d78c")
+	)
+	(label "SCL1"
+		(at 143.51 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00b15ce7-eec3-4a19-92db-5a7e4c4cf500")
+	)
+	(label "SCL1"
+		(at 142.24 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3779db6f-8519-4003-81db-5a8afe77f0f5")
+	)
+	(label "SCL1"
+		(at 278.13 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e1aca82-c3e7-4522-b66b-b6c6d5cc954d")
+	)
+	(label "SDA1"
+		(at 142.24 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a85f627-8f1d-469b-88b5-f83a3ef29950")
+	)
+	(label "SCL0"
+		(at 49.53 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a8c5eed-bd6f-4ed0-bcf4-1d79deeeed82")
+	)
+	(label "SDA1"
+		(at 142.24 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f707645-6951-4b9c-bbf6-13bfef285733")
+	)
+	(label "SDA0"
+		(at 49.53 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "671225b3-a61d-47cb-b2c3-e6dd07d6ee2a")
+	)
+	(label "SDA0"
+		(at 49.53 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a42baf0-ac59-4529-8b69-33f08e132538")
+	)
+	(label "SDA0"
+		(at 49.53 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c2ed7df-6293-438f-9960-5aced9414c5a")
+	)
+	(label "SCL1"
+		(at 143.51 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76846389-b1cd-4ac8-96b2-5ddb4b315022")
+	)
+	(label "SDA1"
+		(at 143.51 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78ceaaec-4e00-4309-bb9e-02bba3216249")
+	)
+	(label "SCL0"
+		(at 49.53 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8255607a-ad03-4627-a4bf-2ed23b446627")
+	)
+	(label "SDA1"
+		(at 278.13 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "873f27ac-13c5-4837-868b-5a6b501bcb2e")
+	)
+	(label "SDA0"
+		(at 227.33 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8992de46-10de-483e-b6fa-b191d156ac57")
+	)
+	(label "SCL0"
+		(at 49.53 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92984a98-29ba-4f10-a687-a01cc10658d9")
+	)
+	(label "SDA1"
+		(at 143.51 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b0c1009-e042-42c1-8077-402fa38df310")
+	)
+	(label "SCL0"
+		(at 49.53 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa849981-aea1-44a8-8aa5-7849344de7c2")
+	)
+	(label "SCL1"
+		(at 142.24 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3c1175a-20cf-4c19-954d-f0d51fef2b0f")
+	)
+	(label "SCL0"
+		(at 227.33 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf839c11-0044-4b0c-87c5-00822febb9be")
+	)
+	(label "SDA0"
+		(at 49.53 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4d2a0a2-3501-40e6-abea-1c425e02af23")
+	)
+	(symbol
+		(lib_id "178_6164_0002:178.6164.0002")
+		(at 35.56 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "232f3526-8643-4de4-b076-0bd313cfb1f0")
+		(property "Reference" "F3"
+			(at 40.64 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "178.6164.0002"
+			(at 40.64 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "178_6164_0002:FUSE_178-6164_LTF"
+			(at 35.56 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "178.6164.0002"
+			(at 35.56 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6ce5060-24bc-4fa6-a1d5-e5adf92e70c6")
+		)
+		(pin "1"
+			(uuid "803a2a3f-3b77-46d4-92d0-749f95d0e87c")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2583c6f1-57bc-4c9c-b623-932640a45f6e")
+		(property "Reference" "#PWR020"
+			(at 292.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35bb")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c209372-95aa-4a7a-81c1-b0a0160c0ed3")
+		(property "Reference" "#PWR024"
+			(at 213.36 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35bc")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0002:178.6164.0002")
+		(at 129.54 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3afa4c3c-3dbb-426d-85cc-d3d308d92a3d")
+		(property "Reference" "F5"
+			(at 134.62 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "178.6164.0002"
+			(at 134.62 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "178_6164_0002:FUSE_178-6164_LTF"
+			(at 129.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "178.6164.0002"
+			(at 129.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6ce5060-24bc-4fa6-a1d5-e5adf92e70c7")
+		)
+		(pin "1"
+			(uuid "803a2a3f-3b77-46d4-92d0-749f95d0e87d")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0002:178.6164.0002")
+		(at 129.54 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c8ff6e-ebf4-4df5-bab9-9a01ff92852d")
+		(property "Reference" "F7"
+			(at 134.62 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "178.6164.0002"
+			(at 134.62 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "178_6164_0002:FUSE_178-6164_LTF"
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "178.6164.0002"
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6ce5060-24bc-4fa6-a1d5-e5adf92e70c8")
+		)
+		(pin "1"
+			(uuid "803a2a3f-3b77-46d4-92d0-749f95d0e87e")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51465327-fa65-4294-a4cd-ab8e8bc6911f")
+		(property "Reference" "#PWR023"
+			(at 213.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35bd")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberrypi pico2 W:U")
+		(at 252.73 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bb6f75e-e66e-464e-89cb-19c571f8b8bf")
+		(property "Reference" "U1"
+			(at 252.73 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 252.73 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rpi-pico2w:Raspberrypi pico2 w SMD"
+			(at 252.73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "8cd203d9-e449-4eff-bc36-db54caabc934")
+		)
+		(pin "12"
+			(uuid "f6df968e-c51c-43c9-a8c3-dac3a59a5c14")
+		)
+		(pin "4"
+			(uuid "fe86eb98-35f9-48bb-8937-32456d314aa2")
+		)
+		(pin "2"
+			(uuid "30e478eb-2234-4be3-a789-9429e64178ae")
+		)
+		(pin "1"
+			(uuid "5c2aa933-cc0f-4808-b5da-eb8bf77085bb")
+		)
+		(pin "5"
+			(uuid "238fbb24-88f1-40cb-bf6e-5a8e7fdaf6ed")
+		)
+		(pin "3"
+			(uuid "8069b9d0-7717-49ff-b5b9-21d3d3ef3b3a")
+		)
+		(pin "6"
+			(uuid "efbbcf08-09e6-4f6b-9299-960c7db88e9f")
+		)
+		(pin "7"
+			(uuid "7f60d54b-5c18-4c6f-a866-a37e4df8afd4")
+		)
+		(pin "8"
+			(uuid "81f88ac2-9785-4cd8-8c95-7e6a58c6c0fa")
+		)
+		(pin "9"
+			(uuid "a4c66411-03d1-4918-b5b4-87a8dcdb2502")
+		)
+		(pin "11"
+			(uuid "8c23d810-0f4e-414a-99f5-8c646bd0afc4")
+		)
+		(pin ""
+			(uuid "6bf1e213-a84b-4104-bea4-b8b1c82c1838")
+		)
+		(pin "33"
+			(uuid "80c8a606-b187-4de0-a1a5-e2656666bbfa")
+		)
+		(pin "14"
+			(uuid "afe6c659-999b-4a2b-abff-ee0648c4c4b1")
+		)
+		(pin "13"
+			(uuid "67ea243d-505e-4801-82ee-982ac8a0d040")
+		)
+		(pin "15"
+			(uuid "444fcef0-01a6-4e93-86bf-d64a4e340ea4")
+		)
+		(pin "20"
+			(uuid "31579753-cd79-4aba-9aa4-7027769d9a29")
+		)
+		(pin ""
+			(uuid "35549d44-0a39-444c-b278-6dfcc07cc551")
+		)
+		(pin "40"
+			(uuid "0b042f77-e720-4735-a66b-9b8732cdba97")
+		)
+		(pin "39"
+			(uuid "f4c468e3-1e52-48c8-a2ad-aededeb58496")
+		)
+		(pin "17"
+			(uuid "83819aff-84a4-4182-8530-4aecb05ac960")
+		)
+		(pin "38"
+			(uuid "7146553c-0ce6-42d3-8a12-65bdfff260a0")
+		)
+		(pin "16"
+			(uuid "0ea1ee30-2aa6-4625-8698-a23e5569f71e")
+		)
+		(pin "19"
+			(uuid "93bf1ceb-3aa0-4029-9073-fea9115de723")
+		)
+		(pin "37"
+			(uuid "80902118-aefa-47d7-b476-71678ab83763")
+		)
+		(pin "36"
+			(uuid "3c0b7175-5b4c-4aa5-ad50-1a37b7d6b1a7")
+		)
+		(pin "35"
+			(uuid "7795ae13-673f-4699-844b-8c1ff9aa2d33")
+		)
+		(pin ""
+			(uuid "28a2d779-28ef-41de-9794-2e5df2bafcdc")
+		)
+		(pin "18"
+			(uuid "9c980633-f318-41b6-9e1e-8375d0eeaf0b")
+		)
+		(pin "34"
+			(uuid "934b3ae0-ec7a-4ad4-9c94-0f7977071aa3")
+		)
+		(pin "32"
+			(uuid "53aafb90-5a2e-46a4-90cf-0a9d3e49a594")
+		)
+		(pin "31"
+			(uuid "a394cf84-7135-4ac3-a7ad-04b0fb17e671")
+		)
+		(pin "30"
+			(uuid "9929ba10-eb2c-4c5c-9d8f-bca16ed80eba")
+		)
+		(pin "29"
+			(uuid "4cea2419-1c41-44b9-9460-5130de9f7c01")
+		)
+		(pin "28"
+			(uuid "7dd5d98f-e498-4b37-8d6c-3c16170e8647")
+		)
+		(pin "27"
+			(uuid "b5959937-c38b-4419-aa11-89f5cfdca916")
+		)
+		(pin "26"
+			(uuid "9986a36c-6b70-4680-9f53-92e2a549910d")
+		)
+		(pin "25"
+			(uuid "bb208228-66fd-44ab-bfe4-ec78802c596e")
+		)
+		(pin "24"
+			(uuid "5a77c26c-8b3b-46b6-8b24-ef5849bb284f")
+		)
+		(pin "23"
+			(uuid "33838402-159e-4631-a086-2b6ad7879c87")
+		)
+		(pin "22"
+			(uuid "e9efaaf3-f368-4cb9-9436-e676b6afc31e")
+		)
+		(pin "21"
+			(uuid "3b00d178-bae0-4f4b-89e5-066cd1492399")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0002:178.6164.0002")
+		(at 35.56 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aa34dae-4db0-4fae-9730-224131824b35")
+		(property "Reference" "F2"
+			(at 40.64 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "178.6164.0002"
+			(at 40.64 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "178_6164_0002:FUSE_178-6164_LTF"
+			(at 35.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "178.6164.0002"
+			(at 35.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6ce5060-24bc-4fa6-a1d5-e5adf92e70c9")
+		)
+		(pin "1"
+			(uuid "803a2a3f-3b77-46d4-92d0-749f95d0e87f")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0002:178.6164.0002")
+		(at 128.27 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85147786-a846-42dd-9e5f-f0ea3aeea116")
+		(property "Reference" "F8"
+			(at 133.35 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "178.6164.0002"
+			(at 133.35 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "178_6164_0002:FUSE_178-6164_LTF"
+			(at 128.27 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "178.6164.0002"
+			(at 128.27 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6ce5060-24bc-4fa6-a1d5-e5adf92e70ca")
+		)
+		(pin "1"
+			(uuid "803a2a3f-3b77-46d4-92d0-749f95d0e880")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8afce79a-c61c-440f-afb1-a5377dac7592")
+		(property "Reference" "#PWR022"
+			(at 213.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35be")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0002:178.6164.0002")
+		(at 35.56 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c1d18bd-7310-45c0-ae75-bf012501572e")
+		(property "Reference" "F1"
+			(at 40.64 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "178.6164.0002"
+			(at 40.64 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "178_6164_0002:FUSE_178-6164_LTF"
+			(at 35.56 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "178.6164.0002"
+			(at 35.56 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6ce5060-24bc-4fa6-a1d5-e5adf92e70cb")
+		)
+		(pin "1"
+			(uuid "803a2a3f-3b77-46d4-92d0-749f95d0e881")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0002:178.6164.0002")
+		(at 128.27 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aa6b86b-cba4-463a-8f25-c65cfec78eea")
+		(property "Reference" "F6"
+			(at 133.35 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "178.6164.0002"
+			(at 133.35 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "178_6164_0002:FUSE_178-6164_LTF"
+			(at 128.27 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "178.6164.0002"
+			(at 128.27 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6ce5060-24bc-4fa6-a1d5-e5adf92e70cc")
+		)
+		(pin "1"
+			(uuid "803a2a3f-3b77-46d4-92d0-749f95d0e882")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d5f1786-617c-4887-8cbb-9d38431a1409")
+		(property "Reference" "#PWR019"
+			(at 292.1 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35bf")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c98074e5-a4eb-4c64-84f2-a5aad2efd542")
+		(property "Reference" "#PWR021"
+			(at 252.73 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35c0")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d705d2ba-a7e7-4285-a34c-48b5ae8c6fbe")
+		(property "Reference" "#PWR025"
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35c1")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "178_6164_0002:178.6164.0002")
+		(at 35.56 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df14af12-91f0-41ea-ac06-87f22ea7ced6")
+		(property "Reference" "F4"
+			(at 40.64 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "178.6164.0002"
+			(at 40.64 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "178_6164_0002:FUSE_178-6164_LTF"
+			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "178.6164.0002"
+			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6ce5060-24bc-4fa6-a1d5-e5adf92e70cd")
+		)
+		(pin "1"
+			(uuid "803a2a3f-3b77-46d4-92d0-749f95d0e883")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6cf1b53-0901-4411-9fc2-7817c77bc957")
+		(property "Reference" "#PWR018"
+			(at 292.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35c2")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcea18ab-642a-41e6-9d66-be4655c64576")
+		(property "Reference" "#PWR017"
+			(at 292.1 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ca7329-8356-4919-99fd-fdd3963b35c3")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 31.75)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "15758eaf-da29-4bf9-824e-05489805e872")
+		(property "Sheetname" "INA264"
+			(at 144.78 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ina260.kicad_sch"
+			(at 144.78 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 144.78 48.26 180)
+			(uuid "be10b47e-edef-4295-b87d-d3b3cee7d8e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 144.78 50.8 180)
+			(uuid "8d265771-668f-4afb-944d-683a7db17ae1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD" output
+			(at 177.8 35.56 0)
+			(uuid "6180afcd-1fbb-430c-b85e-635aea3471f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 144.78 45.72 180)
+			(uuid "ca418b4c-b8ce-4bcf-9884-2a84a33ffd6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 144.78 43.18 180)
+			(uuid "61729c7b-c457-44c2-9183-0b23ffa064b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 144.78 35.56 180)
+			(uuid "70e9a523-f592-4481-a2a2-f307ac7abe05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VS" input
+			(at 144.78 38.1 180)
+			(uuid "8e9ec8bc-1047-4b84-96d6-1e83dd0361ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 111.76)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2a394739-6618-41e7-ac02-7d9ae9b51130")
+		(property "Sheetname" "INA266"
+			(at 146.05 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ina260.kicad_sch"
+			(at 146.05 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 146.05 128.27 180)
+			(uuid "0c7385af-96a9-44d8-a790-5c65b3ee5cad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 146.05 130.81 180)
+			(uuid "3303fc03-571b-4caa-bf55-56811662165b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD" output
+			(at 179.07 115.57 0)
+			(uuid "ffd91b11-3dae-4992-acf4-29c0c3f17c54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 146.05 125.73 180)
+			(uuid "e8ef6f28-4e66-4c16-9cbe-8dc05a0617f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 146.05 123.19 180)
+			(uuid "d183db1a-e365-466b-901b-43f23c8c5651")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 146.05 115.57 180)
+			(uuid "6535b125-dcd1-40ea-9eb7-877fa5bf8eab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VS" input
+			(at 146.05 118.11 180)
+			(uuid "9d5008e2-edb0-4ffa-96f1-baabd82dbc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 153.67)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3f450dac-4b40-43e0-a03c-1caf434b0aa7")
+		(property "Sheetname" "INA263"
+			(at 52.07 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ina260.kicad_sch"
+			(at 52.07 177.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 52.07 170.18 180)
+			(uuid "9687eb26-6dc8-495b-ad12-22791808254d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 52.07 172.72 180)
+			(uuid "b29f40f3-151d-406c-bc98-e10f3459ab82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD" output
+			(at 85.09 157.48 0)
+			(uuid "7885fe1c-032e-4a2b-a596-d53c7dc5aeb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 52.07 167.64 180)
+			(uuid "1054a0af-f04f-45bc-8de1-5ad864177710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 52.07 165.1 180)
+			(uuid "ba5361af-94a8-4b07-8e10-fea8315e404e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 52.07 157.48 180)
+			(uuid "d71129d1-eca0-4211-94a3-0b4dc58af7eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VS" input
+			(at 52.07 160.02 180)
+			(uuid "387b12a9-2299-4889-8ad3-3c01f3a7f409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 111.76)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "791c4b70-f492-4b91-a1f1-088e70f1a198")
+		(property "Sheetname" "INA262"
+			(at 52.07 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ina260.kicad_sch"
+			(at 52.07 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 52.07 128.27 180)
+			(uuid "79c20e38-c6d4-40ac-b31c-ad62706a9d5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 52.07 130.81 180)
+			(uuid "232d3c52-471f-461d-93bd-3d14ed348e46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD" output
+			(at 85.09 115.57 0)
+			(uuid "c54d7914-ac26-4438-ae49-53317f61ec4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 52.07 125.73 180)
+			(uuid "0fd2fb05-407a-4061-8bc3-c0ec4e1f4987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 52.07 123.19 180)
+			(uuid "1aecd9b9-6e41-47a0-833a-cb759316ab8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 52.07 115.57 180)
+			(uuid "7a759179-7736-4300-bdbb-8b820663437d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VS" input
+			(at 52.07 118.11 180)
+			(uuid "47e1b750-cd1a-4ce5-8c2b-d54db923873a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 71.12)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8d32305e-b711-49b4-8873-054d0245a6aa")
+		(property "Sheetname" "INA265"
+			(at 144.78 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ina260.kicad_sch"
+			(at 144.78 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 144.78 87.63 180)
+			(uuid "8c8280ce-bd64-4f1b-ab95-925fc2295662")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 144.78 90.17 180)
+			(uuid "4a7b78ab-4c2a-4135-a37f-8aa690e1707b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD" output
+			(at 177.8 74.93 0)
+			(uuid "01ed37f5-5ff3-485b-ab5c-db910e8a7fc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 144.78 85.09 180)
+			(uuid "09f13e11-9810-4ac2-91e7-209e5bacc7c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 144.78 82.55 180)
+			(uuid "d4e77a5f-3240-478c-a0ba-21c304f0a5ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 144.78 74.93 180)
+			(uuid "4b96d08a-40dc-41df-ab6e-a7864b140ab7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VS" input
+			(at 144.78 77.47 180)
+			(uuid "aed3583c-0edf-4c53-8f51-fa4f45a2b453")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 153.67)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "99793f99-a72e-458a-aafa-ed725c74b251")
+		(property "Sheetname" "INA267"
+			(at 146.05 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ina260.kicad_sch"
+			(at 146.05 177.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 146.05 170.18 180)
+			(uuid "a3967241-c8c5-4deb-85a5-605d3c20fac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 146.05 172.72 180)
+			(uuid "601fd53a-5b8e-4907-af4f-7dc9b65c5fcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD" output
+			(at 179.07 157.48 0)
+			(uuid "d9c3975d-c728-4637-b484-79db52e9c1be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 146.05 167.64 180)
+			(uuid "27d51bf6-4f7a-4fc4-9ee1-b0e169213a01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 146.05 165.1 180)
+			(uuid "2054f137-55ca-4df6-9764-176aca7bb24e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 146.05 157.48 180)
+			(uuid "b7efab3d-8d1c-4048-8d61-4f6fd5f11728")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VS" input
+			(at 146.05 160.02 180)
+			(uuid "040e0cba-900b-42c4-b803-631c6bf23560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 71.12)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9d259bb6-46c1-4cbd-90bb-8c019a72ebc4")
+		(property "Sheetname" "INA261"
+			(at 52.07 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ina260.kicad_sch"
+			(at 52.07 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 52.07 87.63 180)
+			(uuid "a40504eb-4db6-44ff-93fe-d441d8bb788f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 52.07 90.17 180)
+			(uuid "4abe2840-94e4-41c8-83b2-dc1c5571aba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD" output
+			(at 85.09 74.93 0)
+			(uuid "59c5c408-dd7e-46d7-b517-1f3516674a41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 52.07 85.09 180)
+			(uuid "7786ce2f-ae48-476a-a7be-79a087c20e75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 52.07 82.55 180)
+			(uuid "24e06fe2-ae51-43ad-bb83-73e6152b7a39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 52.07 74.93 180)
+			(uuid "337eeb73-9bb5-41ba-a2ad-d80da30b3b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VS" input
+			(at 52.07 77.47 180)
+			(uuid "35d571cf-4e48-4e3a-835c-ada6c52591f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 31.75)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d8c4f0ea-7758-4aba-8b6e-91a4eea3fbe2")
+		(property "Sheetname" "INA260"
+			(at 52.07 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ina260.kicad_sch"
+			(at 52.07 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 52.07 48.26 180)
+			(uuid "6d48e45b-bb0c-46fd-8986-944fd2f4ed54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 52.07 50.8 180)
+			(uuid "e7cc9472-8983-48d3-bce4-21c67ac604ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD" output
+			(at 85.09 35.56 0)
+			(uuid "935647f3-63f2-4a8a-8e78-91f67d91bcd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 52.07 45.72 180)
+			(uuid "77b96be5-77a7-433f-b082-92683c14cb2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 52.07 43.18 180)
+			(uuid "af6a2b91-fcb8-463e-964c-758b606875ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 52.07 35.56 180)
+			(uuid "b06ac26e-7f99-48fa-8b35-dd78ae4c6143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VS" input
+			(at 52.07 38.1 180)
+			(uuid "5e61b5b6-dfff-4238-ade7-df80b97d7418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
