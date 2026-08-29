@@ -638,7 +638,7 @@
         "uuid": "3e352327-6d34-4520-89b7-9902d021830c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-3,#PWR1-6,C1,F1,#FLG1,J1-2",
     "variants": []
   },
   "sheets": [
@@ -649,34 +649,6 @@
     [
       "d8c4f0ea-7758-4aba-8b6e-91a4eea3fbe2",
       "INA260"
-    ],
-    [
-      "9d259bb6-46c1-4cbd-90bb-8c019a72ebc4",
-      "INA261"
-    ],
-    [
-      "791c4b70-f492-4b91-a1f1-088e70f1a198",
-      "INA262"
-    ],
-    [
-      "3f450dac-4b40-43e0-a03c-1caf434b0aa7",
-      "INA263"
-    ],
-    [
-      "15758eaf-da29-4bf9-824e-05489805e872",
-      "INA264"
-    ],
-    [
-      "8d32305e-b711-49b4-8873-054d0245a6aa",
-      "INA265"
-    ],
-    [
-      "2a394739-6618-41e7-ac02-7d9ae9b51130",
-      "INA266"
-    ],
-    [
-      "99793f99-a72e-458a-aafa-ed725c74b251",
-      "INA267"
     ]
   ],
   "text_variables": {},
