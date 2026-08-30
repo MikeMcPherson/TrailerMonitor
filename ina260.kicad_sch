@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "Trailer Monitor")
-		(date "2025-09-20")
-		(rev "V1.0")
+		(date "2026-08-30")
+		(rev "V1.1")
 		(company "Tripoli Central Virginia")
 	)
 	(lib_symbols
@@ -1107,7 +1107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258e5712-abaa-4c2f-a0df-7f17c4ddfecc")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 111.76 76.2064 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1127,7 +1127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 118.11 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1213,7 +1213,7 @@
 		(instances
 			(project "TrailerMonitor"
 				(path "/3e352327-6d34-4520-89b7-9902d021830c/d8c4f0ea-7758-4aba-8b6e-91a4eea3fbe2"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1231,7 +1231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42f1b412-5a71-49b4-bb2d-333da7aee73f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR025"
 			(at 166.37 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1291,7 +1291,7 @@
 		(instances
 			(project "TrailerMonitor"
 				(path "/3e352327-6d34-4520-89b7-9902d021830c/d8c4f0ea-7758-4aba-8b6e-91a4eea3fbe2"
-					(reference "#PWR02")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1309,7 +1309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9937a7c9-8f40-4614-90df-f71b44e4d31c")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 147.32 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1459,7 +1459,7 @@
 		(instances
 			(project "TrailerMonitor"
 				(path "/3e352327-6d34-4520-89b7-9902d021830c/d8c4f0ea-7758-4aba-8b6e-91a4eea3fbe2"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1477,7 +1477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "996e5773-68d8-4eac-95e1-b17a52a7ed30")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR024"
 			(at 118.11 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1538,7 +1538,7 @@
 		(instances
 			(project "TrailerMonitor"
 				(path "/3e352327-6d34-4520-89b7-9902d021830c/d8c4f0ea-7758-4aba-8b6e-91a4eea3fbe2"
-					(reference "#PWR01")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

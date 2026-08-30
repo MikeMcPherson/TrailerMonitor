@@ -5,4 +5,5 @@
 	(lib (name "INA260AIPWR") (type "KiCad") (uri "${KICAD_USER_CADFILES}/ul_INA260AIPWR/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "MAX485ESA") (type "KiCad") (uri "${KICAD_USER_CADFILES}/ul_MAX485ESA/footprints.pretty") (options "") (descr ""))
 	(lib (name "teensy") (type "KiCad") (uri "${KICAD_USER_CADFILES}/teensy_library-master/footprints.pretty") (options "") (descr ""))
+	(lib (name "LMR51606") (type "KiCad") (uri "${KICAD_USER_CADFILES}/ul_LMR51606XDBVR/footprints.pretty") (options "") (descr ""))
 )
