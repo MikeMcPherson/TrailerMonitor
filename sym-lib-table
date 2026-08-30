@@ -4,4 +4,5 @@
 	(lib (name "Raspberrypi pico2 W") (type "KiCad") (uri "${KICAD_USER_CADFILES}/rpi-pico2w-kicad-main/Raspberrypi pico2 W.kicad_sym") (options "") (descr ""))
 	(lib (name "teensy") (type "KiCad") (uri "${KICAD_USER_CADFILES}/teensy_library-master/teensy.kicad_sym") (options "") (descr ""))
 	(lib (name "MAX485ESA") (type "KiCad") (uri "${KICAD_USER_CADFILES}/ul_MAX485ESA/2026-08-29_19-29-06.kicad_sym") (options "") (descr ""))
+	(lib (name "LMR51606") (type "KiCad") (uri "${KICAD_USER_CADFILES}/ul_LMR51606XDBVR/2026-08-30_14-10-46.kicad_sym") (options "") (descr ""))
 )
