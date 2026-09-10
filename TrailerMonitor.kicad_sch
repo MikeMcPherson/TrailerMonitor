@@ -3526,6 +3526,12 @@
 		)
 	)
 	(junction
+		(at 151.13 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fe62694-afeb-482e-9a48-92331c06d4d2")
+	)
+	(junction
 		(at 120.65 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3544,22 +3550,16 @@
 		(uuid "5eb4f6eb-7882-4395-9165-7bf1a1e2b977")
 	)
 	(junction
-		(at 135.89 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f3a4cec-5692-4ff1-817e-b2b8f6180c0f")
-	)
-	(junction
 		(at 92.71 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "795bc3ec-acaa-4fd0-928f-05f8bdcf50c5")
 	)
 	(junction
-		(at 151.13 96.52)
+		(at 135.89 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5976ec9-4b36-4f51-bb5b-e975182176a7")
+		(uuid "be31fdf8-638d-4ad9-9db0-5d8919fd2195")
 	)
 	(junction
 		(at 73.66 111.76)
@@ -3811,6 +3811,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 96.52) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4513ebf8-0c59-4b7f-afc1-0c3a1b37687d")
+	)
+	(wire
+		(pts
 			(xy 83.82 118.11) (xy 83.82 119.38)
 		)
 		(stroke
@@ -3891,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 96.52) (xy 143.51 96.52)
+			(xy 135.89 96.52) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6605,7 +6615,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 147.32 96.52 90)
+		(at 143.51 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6616,7 +6626,7 @@
 		(fields_autoplaced yes)
 		(uuid "9081ea5f-38c5-445c-8751-a1b18f2facd9")
 		(property "Reference" "L1"
-			(at 147.32 91.44 90)
+			(at 143.51 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6626,7 +6636,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 147.32 93.98 90)
+			(at 143.51 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6636,7 +6646,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 147.32 96.52 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6647,7 +6657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 96.52 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6658,7 +6668,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 147.32 96.52 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
