@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -37,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 1.508,
+          "width": 1.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,10 +50,32 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -71,6 +95,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -88,6 +113,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -107,9 +133,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -180,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -217,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V1.0"
+      "sch_revision": "V1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -451,7 +487,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -489,6 +525,24 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 24,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -496,7 +550,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J1-*)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(U2-*)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VSYS"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -638,45 +713,13 @@
         "uuid": "3e352327-6d34-4520-89b7-9902d021830c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-4,L1,#PWR1-29,C1-6,F1,#FLG1-2,R1-7,J1-5,Q1,CR1,A1,H1-4",
     "variants": []
   },
   "sheets": [
     [
       "3e352327-6d34-4520-89b7-9902d021830c",
       "TrailerMonitor"
-    ],
-    [
-      "d8c4f0ea-7758-4aba-8b6e-91a4eea3fbe2",
-      "INA260"
-    ],
-    [
-      "9d259bb6-46c1-4cbd-90bb-8c019a72ebc4",
-      "INA261"
-    ],
-    [
-      "791c4b70-f492-4b91-a1f1-088e70f1a198",
-      "INA262"
-    ],
-    [
-      "3f450dac-4b40-43e0-a03c-1caf434b0aa7",
-      "INA263"
-    ],
-    [
-      "15758eaf-da29-4bf9-824e-05489805e872",
-      "INA264"
-    ],
-    [
-      "8d32305e-b711-49b4-8873-054d0245a6aa",
-      "INA265"
-    ],
-    [
-      "2a394739-6618-41e7-ac02-7d9ae9b51130",
-      "INA266"
-    ],
-    [
-      "99793f99-a72e-458a-aafa-ed725c74b251",
-      "INA267"
     ]
   ],
   "text_variables": {},
