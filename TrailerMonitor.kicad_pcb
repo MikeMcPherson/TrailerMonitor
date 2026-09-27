@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -5646,15 +5645,6 @@
 		(path "/20b81f2a-725c-4d96-81d1-8473a7be8192")
 		(sheetname "/")
 		(sheetfile "TrailerMonitor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "30" "37" "1" "2" "4" "5" "6" "7" "9" "10" "11" "12" "14" "15"
-					"16" "17" "19" "20" "39" "40" "3" "23" "28" "18" "13" "38" "8" "36"
-					"21" "22" "24" "25" "26" "27" "29" "35" "31" "32" "34" "33"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7047,6 +7037,14 @@
 			)
 		)
 		(group ""
+			(uuid "7e01df4c-e407-42e2-80b2-099f42103e02")
+			(members "29a75d54-db3b-4f9f-b613-6678e5670660" "717ab638-5d58-4707-9e6e-fc6b6e96e9e5"
+				"7198eabc-70d1-4d53-991a-64d2057d57f9" "a39b5954-4f7c-414f-82ae-616af08e4613"
+				"c4bf9411-0c2d-4ade-9245-297d0176dbab" "de7465ba-3967-4c96-a2b3-41eff66f85ce"
+				"fb800922-9537-4d59-a54f-99692b5f06e7"
+			)
+		)
+		(group ""
 			(uuid "9804ecff-7a7d-4f2e-84ce-8e1f266a979b")
 			(members "00b55b8b-affc-49d9-9692-1d52d77bef84" "0c8d98fb-daf8-4fab-b370-556ffc045127"
 				"1e1adb8c-3d71-4a54-8b75-72f1621b2d42" "4d130b8f-b957-4c16-aef0-5ad6e25ab589"
@@ -7054,14 +7052,6 @@
 				"5dace7fb-57db-4f5f-b5b0-2b017fe15145" "9683c55d-c048-4372-b125-aeeb6d5c6f6e"
 				"9c8862c5-6405-483e-8ff3-9d6020d9796c" "b51af285-9185-4296-ab26-39d7eba26633"
 				"ea656e39-b8ee-4eba-a368-bc4adef50e3c"
-			)
-		)
-		(group ""
-			(uuid "da76e799-92c8-4528-9c67-cd09c90533bc")
-			(members "29a75d54-db3b-4f9f-b613-6678e5670660" "717ab638-5d58-4707-9e6e-fc6b6e96e9e5"
-				"7198eabc-70d1-4d53-991a-64d2057d57f9" "a39b5954-4f7c-414f-82ae-616af08e4613"
-				"c4bf9411-0c2d-4ade-9245-297d0176dbab" "de7465ba-3967-4c96-a2b3-41eff66f85ce"
-				"fb800922-9537-4d59-a54f-99692b5f06e7"
 			)
 		)
 		(group ""
@@ -7075,7 +7065,7 @@
 			)
 		)
 		(group ""
-			(uuid "7e01df4c-e407-42e2-80b2-099f42103e02")
+			(uuid "da76e799-92c8-4528-9c67-cd09c90533bc")
 			(members "05794751-e8a0-4de6-b25f-2cd625cf41de" "0776c43f-635e-4ad0-adbb-a7e98819b3c6"
 				"192e54af-c1f3-485b-bc0f-3fe1678a6eac" "28fda314-0add-4a3b-b936-6c41bd2c12ac"
 				"387d8c95-8f48-4853-a93c-e256d80aaf70" "3ab35583-88e8-4708-9ae4-d1448ebc2aec"
@@ -7089,15 +7079,75 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD_USER_CADFILES}/rpi-pico2w-kicad-main/Raspberrypi pico2 W.step"
+		(model "${KICAD10_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_PinSockets_H8.50mm.step"
+			(hide yes)
 			(offset
-				(xyz 8.9 -24.1 0)
+				(xyz 8.89 -24.13 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders_H2.54mm.step"
+			(hide yes)
+			(offset
+				(xyz 8.89 -24.13 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_H.step"
+			(hide yes)
+			(offset
+				(xyz 8.89 -24.13 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_W_AddedHeaders_H2.54mm.step"
+			(hide yes)
+			(offset
+				(xyz 8.89 -24.13 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_WH.step"
+			(hide yes)
+			(offset
+				(xyz 8.89 -24.13 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD_USER_CADFILES}/rpi-pico2w-kicad-main/pi-pico-2w-cad-reference.step"
+			(offset
+				(xyz 8.75 -24.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
