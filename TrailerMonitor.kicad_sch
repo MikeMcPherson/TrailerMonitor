@@ -169,6 +169,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DMG2305UX-13:DMG2305UX-13"
 			(pin_names
 				(offset 1.016)
@@ -3654,16 +3870,12 @@
 		(uuid "b60d639b-7f4d-4c31-9b46-5ebe97bf8716")
 	)
 	(no_connect
-		(at 193.04 205.74)
-		(uuid "bb84199f-94c9-47c4-948b-e6dca441c55e")
+		(at 238.76 215.9)
+		(uuid "bc380bdf-3040-4837-ad47-8b2f1095adff")
 	)
 	(no_connect
 		(at 238.76 213.36)
 		(uuid "c985464d-aa85-4050-bcd1-2c67a6802272")
-	)
-	(no_connect
-		(at 193.04 203.2)
-		(uuid "d5063a0e-339a-4095-afec-ba0cd3b112d7")
 	)
 	(no_connect
 		(at 238.76 203.2)
@@ -3691,7 +3903,17 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 101.6) (xy 335.28 101.6)
+			(xy 332.74 86.36) (xy 335.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07326b37-7daf-4f57-a581-f237401fccd8")
+	)
+	(wire
+		(pts
+			(xy 332.74 81.28) (xy 335.28 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3731,7 +3953,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 104.14) (xy 335.28 104.14)
+			(xy 332.74 83.82) (xy 335.28 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3788,6 +4010,16 @@
 			(type default)
 		)
 		(uuid "31e6f836-3fc9-4eeb-b332-b3fe82c16b87")
+	)
+	(wire
+		(pts
+			(xy 332.74 161.29) (xy 335.28 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369ebd84-e37b-44d5-a7df-b46731648662")
 	)
 	(wire
 		(pts
@@ -3881,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 129.54) (xy 328.93 130.81)
+			(xy 328.93 109.22) (xy 328.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3891,7 +4123,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 123.19) (xy 335.28 123.19)
+			(xy 328.93 102.87) (xy 335.28 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3911,7 +4143,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 120.65) (xy 335.28 120.65)
+			(xy 328.93 100.33) (xy 335.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3928,6 +4160,16 @@
 			(type default)
 		)
 		(uuid "65bf2c4d-0894-4858-a98a-c11cbf415c9b")
+	)
+	(wire
+		(pts
+			(xy 332.74 78.74) (xy 335.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ebf10f-a9a2-4402-8982-a75ea21ff321")
 	)
 	(wire
 		(pts
@@ -3988,6 +4230,16 @@
 			(type default)
 		)
 		(uuid "7f5cbf70-ceb6-4909-b601-3484102c0708")
+	)
+	(wire
+		(pts
+			(xy 332.74 163.83) (xy 335.28 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e13cc3-fbed-4dbb-adfe-db6a4e59b211")
 	)
 	(wire
 		(pts
@@ -4111,23 +4363,13 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 153.67) (xy 328.93 154.94)
+			(xy 190.5 203.2) (xy 193.04 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa0b5ad5-cd42-4887-bc67-2c20fe440d18")
-	)
-	(wire
-		(pts
-			(xy 328.93 147.32) (xy 335.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aacce78a-f9fa-4831-aaf6-3feae79ffa7a")
+		(uuid "ae3d2bf4-2540-4a92-8338-a2a2fd37a00c")
 	)
 	(wire
 		(pts
@@ -4171,16 +4413,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 147.32) (xy 328.93 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be7b6668-34c7-4f05-8709-3eaf1a5744ab")
-	)
-	(wire
-		(pts
 			(xy 175.26 116.84) (xy 175.26 118.11)
 		)
 		(stroke
@@ -4188,6 +4420,26 @@
 			(type default)
 		)
 		(uuid "cbf3fe93-cdbd-497e-8ea3-8f0995ac6ffa")
+	)
+	(wire
+		(pts
+			(xy 190.5 205.74) (xy 193.04 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf78e18-e8a4-4b8c-ad8d-e2988261dca0")
+	)
+	(wire
+		(pts
+			(xy 332.74 156.21) (xy 335.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf729fb-0579-41f4-85b8-c2f61cd11c77")
 	)
 	(wire
 		(pts
@@ -4221,7 +4473,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 123.19) (xy 328.93 124.46)
+			(xy 328.93 102.87) (xy 328.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4238,16 +4490,6 @@
 			(type default)
 		)
 		(uuid "e8de1561-c00f-4a41-8c8c-a1e84a1bdd5f")
-	)
-	(wire
-		(pts
-			(xy 238.76 215.9) (xy 241.3 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e903c6cb-6383-4070-9c7a-0b2437fa050f")
 	)
 	(wire
 		(pts
@@ -4268,16 +4510,6 @@
 			(type default)
 		)
 		(uuid "ed4a6cca-0721-44f7-9f4c-3e1f84fd9657")
-	)
-	(wire
-		(pts
-			(xy 332.74 144.78) (xy 335.28 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef38a0ef-2367-4747-a28e-1aced9a7fe0a")
 	)
 	(wire
 		(pts
@@ -4321,6 +4553,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 158.75) (xy 335.28 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ad55db-dde2-4a4c-ae1a-2317a9984779")
+	)
+	(wire
+		(pts
 			(xy 95.25 96.52) (xy 95.25 109.22)
 		)
 		(stroke
@@ -4359,6 +4601,16 @@
 		)
 		(uuid "feaf3e57-f1b4-4374-8ad8-5b13babcee52")
 	)
+	(label "SCL"
+		(at 332.74 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08bbcb16-3bee-4936-a667-6689dde0c1da")
+	)
 	(label "A"
 		(at 180.34 163.83 0)
 		(effects
@@ -4370,7 +4622,7 @@
 		(uuid "0dd04f83-5702-44da-bdd5-5964b075aa9c")
 	)
 	(label "B"
-		(at 332.74 101.6 180)
+		(at 332.74 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4400,7 +4652,7 @@
 		(uuid "3f0386cb-7f34-4a2b-b6a4-01b5356ada5f")
 	)
 	(label "A"
-		(at 332.74 104.14 180)
+		(at 332.74 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4418,16 +4670,6 @@
 			(justify left bottom)
 		)
 		(uuid "62aaaf8c-c6e1-4c2c-81c2-19384d8aff77")
-	)
-	(label "MODBUS_ACT"
-		(at 241.3 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71f517d9-1e67-46c9-9b51-a3dd2ef62207")
 	)
 	(label "VSYS"
 		(at 201.93 110.49 0)
@@ -4479,6 +4721,26 @@
 		)
 		(uuid "90534680-64f5-48a8-a144-679f6bb243ac")
 	)
+	(label "SCL"
+		(at 190.5 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96e8a84d-9894-4f2e-abca-f9d003c5108c")
+	)
+	(label "SDA"
+		(at 332.74 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b71daf66-14ea-42fc-9f17-8beec4ea509f")
+	)
 	(label "DE"
 		(at 190.5 215.9 180)
 		(effects
@@ -4499,16 +4761,6 @@
 		)
 		(uuid "b9344fee-6cb2-4938-a898-427edce36938")
 	)
-	(label "MODBUS_ACT"
-		(at 332.74 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ecc2e7bb-05d5-4248-9fd9-b0fead71250f")
-	)
 	(label "B"
 		(at 180.34 161.29 0)
 		(effects
@@ -4518,6 +4770,16 @@
 			(justify left bottom)
 		)
 		(uuid "f15f59fe-14be-424e-b3be-04ef32ac9782")
+	)
+	(label "SDA"
+		(at 190.5 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "faca17ce-af0f-4445-9e92-24aa70e162bc")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4600,7 +4862,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 328.93 120.65 0)
+		(at 328.93 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4611,7 +4873,7 @@
 		(fields_autoplaced yes)
 		(uuid "06e8840b-0665-4eab-ac2d-fda848e641d3")
 		(property "Reference" "#PWR022"
-			(at 328.93 124.46 0)
+			(at 328.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4622,7 +4884,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 328.93 115.57 0)
+			(at 328.93 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4632,7 +4894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 120.65 0)
+			(at 328.93 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4643,7 +4905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 120.65 0)
+			(at 328.93 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4654,7 +4916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 328.93 120.65 0)
+			(at 328.93 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,168 +5822,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 340.36 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ceedcee-d5a6-42ff-9c10-66eb24596b33")
-		(property "Reference" "J2"
-			(at 342.9 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ModBus"
-			(at 342.9 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 340.36 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 340.36 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f260a318-0a5a-459d-9f99-0e16d2a9c49d")
-		)
-		(pin "2"
-			(uuid "b2ef8f0d-1ea6-44d7-82ab-a48f531d3907")
-		)
-		(instances
-			(project "TrailerMonitor"
-				(path "/3e352327-6d34-4520-89b7-9902d021830c"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 340.36 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4709a8d0-bd46-41b8-b8b7-eb83eb86413a")
-		(property "Reference" "J4"
-			(at 342.9 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED (ModBus Act)"
-			(at 342.9 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 340.36 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 340.36 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42301ca1-d120-4e23-a7bd-5809b913149d")
-		)
-		(pin "2"
-			(uuid "0d51b9ac-2ca7-41f6-b7a8-ae03c36a5cb1")
-		)
-		(instances
-			(project "TrailerMonitor"
-				(path "/3e352327-6d34-4520-89b7-9902d021830c"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 215.9 251.46 0)
 		(unit 1)
@@ -6052,7 +6152,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 328.93 130.81 0)
+		(at 328.93 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6063,7 +6163,7 @@
 		(fields_autoplaced yes)
 		(uuid "547331d3-a9c4-4acd-bb5d-ea0f91a10984")
 		(property "Reference" "#PWR023"
-			(at 328.93 137.16 0)
+			(at 328.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,7 +6174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 328.93 135.89 0)
+			(at 328.93 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6084,7 +6184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 130.81 0)
+			(at 328.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6095,7 +6195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 130.81 0)
+			(at 328.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6106,7 +6206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 328.93 130.81 0)
+			(at 328.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6212,7 +6312,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 340.36 120.65 0)
+		(at 340.36 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6222,7 +6322,7 @@
 		(dnp no)
 		(uuid "698a96cc-a4bb-49fa-b932-386136ca7fcc")
 		(property "Reference" "J3"
-			(at 342.9 120.6499 0)
+			(at 342.9 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6233,7 +6333,7 @@
 			)
 		)
 		(property "Value" "LED (Power)"
-			(at 342.9 123.1899 0)
+			(at 342.9 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6244,7 +6344,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 340.36 120.65 0)
+			(at 340.36 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6255,7 +6355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 120.65 0)
+			(at 340.36 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,7 +6366,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 340.36 120.65 0)
+			(at 340.36 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6529,6 +6629,172 @@
 			(project "TrailerMonitor"
 				(path "/3e352327-6d34-4520-89b7-9902d021830c"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 332.74 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "867ba275-37a2-433a-b973-f6d7ff52b266")
+		(property "Reference" "#PWR029"
+			(at 332.74 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 332.74 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 332.74 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a1e6e78-7099-40ea-8f91-e7e5ac7caa25")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 340.36 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b497b79-ca4f-47a4-90c0-d09df35d6d29")
+		(property "Reference" "J5"
+			(at 342.9 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED Display"
+			(at 342.9 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+			(at 340.36 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 340.36 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "23e286cf-ea79-4d71-b680-7adab01a0314")
+		)
+		(pin "3"
+			(uuid "08a4aa9a-8d58-44ac-850c-2dcfdb92cba1")
+		)
+		(pin "1"
+			(uuid "c5d1dfb6-9395-45c6-b313-8a3c7dc9984a")
+		)
+		(pin "2"
+			(uuid "ce08cc36-c647-40fa-8d93-3a0a5ae0b667")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6933,7 +7199,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 328.93 127 0)
+		(at 328.93 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6944,7 +7210,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bd54863-fe6d-4cf1-89ae-50a891c214a5")
 		(property "Reference" "R3"
-			(at 331.47 125.7299 0)
+			(at 331.47 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6955,7 +7221,7 @@
 			)
 		)
 		(property "Value" "160"
-			(at 331.47 128.2699 0)
+			(at 331.47 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6966,7 +7232,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 328.93 127 0)
+			(at 328.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6977,7 +7243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 127 0)
+			(at 328.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6988,7 +7254,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 328.93 127 0)
+			(at 328.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7113,8 +7379,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 328.93 154.94 0)
+		(lib_id "power:+5V")
+		(at 332.74 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7123,9 +7389,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ee37a90-b53c-4ef6-acea-4f55fdfd476a")
-		(property "Reference" "#PWR024"
-			(at 328.93 161.29 0)
+		(uuid "9cd35513-314f-4499-a63e-89c556ccd7c1")
+		(property "Reference" "#PWR028"
+			(at 332.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7135,8 +7401,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 328.93 160.02 0)
+		(property "Value" "+5V"
+			(at 332.74 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7146,7 +7412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 154.94 0)
+			(at 332.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,7 +7423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 154.94 0)
+			(at 332.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7167,8 +7433,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 328.93 154.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 332.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,12 +7445,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90a55517-07f2-455f-8372-78cb813b0ce7")
+			(uuid "dd069671-1d1c-47bd-b79a-93d038c875e4")
 		)
 		(instances
 			(project "TrailerMonitor"
 				(path "/3e352327-6d34-4520-89b7-9902d021830c"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7269,6 +7535,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 340.36 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a553f498-f2bc-4d49-9f77-522f886b58f8")
+		(property "Reference" "J2"
+			(at 342.9 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 342.9 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+			(at 340.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 340.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "b6115e44-94ad-4dd4-8969-5f48091c74c4")
+		)
+		(pin "3"
+			(uuid "dd5f235b-3ee7-4e6a-8375-973f4170c6ed")
+		)
+		(pin "1"
+			(uuid "97ab0a56-228e-4ce3-974e-0139035676b3")
+		)
+		(pin "2"
+			(uuid "2639b52e-447c-4c48-a6ae-6a259358d185")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 326.39 198.12 0)
 		(unit 1)
@@ -7342,6 +7696,84 @@
 			(project "TrailerMonitor"
 				(path "/3e352327-6d34-4520-89b7-9902d021830c"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 332.74 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab061e10-d8c2-4149-acc1-62f8df021750")
+		(property "Reference" "#PWR011"
+			(at 332.74 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 332.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c0e588a-0021-4f9d-83f5-0ffdbdda7271")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7822,6 +8254,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 332.74 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9bc80a1-1379-4857-8ec7-cf207774a1a9")
+		(property "Reference" "#PWR030"
+			(at 332.74 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 332.74 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d165ccd-9d71-4c35-bfa8-a85a5a218aa0")
+		)
+		(instances
+			(project "TrailerMonitor"
+				(path "/3e352327-6d34-4520-89b7-9902d021830c"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 135.89 104.14 0)
 		(unit 1)
@@ -7977,88 +8487,6 @@
 			(project "TrailerMonitor"
 				(path "/3e352327-6d34-4520-89b7-9902d021830c"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 328.93 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f12fa6e0-82ee-4f9e-8eb8-48dd83dbed80")
-		(property "Reference" "R4"
-			(at 331.47 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "160"
-			(at 331.47 152.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 328.93 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 328.93 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a968b1d9-81b9-4f78-af43-8a2a30c77811")
-		)
-		(pin "1"
-			(uuid "8023dabc-95a8-435e-b171-4c76bc849d04")
-		)
-		(instances
-			(project "TrailerMonitor"
-				(path "/3e352327-6d34-4520-89b7-9902d021830c"
-					(reference "R4")
 					(unit 1)
 				)
 			)
